@@ -10,9 +10,11 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var sampleLabel: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        sampleLabel.text = "こんばんは"
     }
 
     override func didReceiveMemoryWarning() {
